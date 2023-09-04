@@ -413,7 +413,7 @@ if __name__ == "__main__":
   parser.add_argument("--task_name",
                       "-t",
                       default="WINOGRANDE",
-                      choices=("SNLI", "MNLI", "QNLI", "WINOGRANDE",'QQP','FEVER','SST','CoLA'),
+                      choices=("SNLI", "MNLI", "QNLI", "WINOGRANDE",'QQP','FEVER','SST','CoLA','TREC'),
                       help="Which task are we plotting or filtering for.")
   parser.add_argument('--metric',
                       choices=('threshold_closeness',
